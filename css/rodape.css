@@ -1,0 +1,69 @@
+.rodape {
+	background-color: #000;
+}
+
+.rodape_container {
+	max-width: 1200px;
+	padding: 2.5rem 2.5rem 1rem;
+	margin: 0 auto;
+}
+
+.rodape_container>p {
+	color: var(--c8);
+	text-align: center;
+}
+
+.rodape_info {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 100px;
+	margin-bottom: 3.125rem;
+	align-items: center
+}
+
+.rodape_info p {
+	font-size: 1.25rem;
+	color: var(--c5);
+	max-width: 40ch;
+}
+
+.lista_contato {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	gap: 25px;
+	margin: 0 auto;
+}
+
+.lista_contato li a span {
+	font-size: 1.25rem;
+	padding: 0.5rem;
+	color: #FFF;
+}
+
+.lista_contato li a img {
+	display: none;	
+}
+
+@media (max-width: 800px) {
+	.rodape_info {
+		display: flex;
+		flex-direction: column;
+		gap: 50px;
+	}
+
+	.lista_contato li a span {
+		display: none;
+	}
+
+	.lista_contato {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.lista_contato li a img {
+		display: block;
+		height: 40px;
+		width: 40px;
+	}
+}

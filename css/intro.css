@@ -1,0 +1,50 @@
+.secao_intro .container {
+	gap: 100px;
+	align-items: center;
+}
+
+.secao_intro_img {
+	max-width: 360px;
+}
+
+.secao_intro_titulo {
+	font-size: 4.5rem;
+	position: relative;
+	color: var(--c13);
+}
+
+.secao_intro_titulo::before {
+	content: "";
+	display: block;
+	background: url('../assets/detalhe.svg');
+	position: absolute;
+	width: 71px;
+	height: 57px;
+	z-index: -1;
+	left: -20px;
+	scale: 1.2;
+}
+
+@media (max-width: 1000px) {
+	.secao_intro .container {
+		align-items: center;
+		gap: 50px;
+	}
+
+	.secao_intro_titulo {
+		font-size: 3rem;
+	}
+
+	.secao_intro_img {
+		width: 100%;
+		height: 100%;
+	}
+}
+
+@media (max-width: 800px) {
+	.secao_intro .container {
+		align-items: center;
+		flex-direction: column-reverse;
+		gap: 0;
+	}
+}

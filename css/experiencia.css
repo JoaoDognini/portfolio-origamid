@@ -1,0 +1,105 @@
+.secao_experiencia {}
+
+.secao_experiencia .titulo {
+	color: var(--c4);
+}
+
+.secao_experiencia_conteudo_texto {
+	font-size: 1.25rem;
+	line-height: 1.3;
+	color: var(--c10);
+	max-width: 50ch;
+	margin-bottom: 3.75rem;
+}
+
+.secao_experiencia_conteudo_texto strong {
+	color: #000;
+}
+
+.exp_lista {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	gap: 40px;
+}
+
+.exp_lista_li_card {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 50px;
+	padding: 1.25rem;
+	background-color: var(--c2);
+	border: 1px solid var(--c3);
+	border-radius: 5px;
+}
+
+.exp_lista_card {
+	position: relative;
+}
+
+.exp_lista_card:nth-child(1)::before {
+	content: "";
+	display: block;
+	width: 4px;
+	height: 20px;
+	background: var(--gradiente);
+	position: absolute;
+	left: -24px;
+}
+
+.exp_lista_card span {
+	position: absolute;
+	font-size: 0.875rem;
+	left: -124px;
+	top: 3px;
+	width: 80px;
+	text-align: right;
+}
+
+.exp_lista_card_titulo {
+	margin-bottom: 10px;
+}
+
+.exp_lista_card_texto {
+	font-size: 0.875rem;
+	color: var(--c11);
+	line-height: 1.5;
+}
+
+.lista_tecnologias {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	padding-right: 3rem;
+}
+
+.lista_tecnologias_item {
+	padding: .5rem;
+	background: #FFF;
+	border-radius: 5px;
+	color: var(--c13);
+	font-size: 0.875rem;
+}
+
+@media (max-width: 800px) {
+	.secao_experiencia_conteudo_texto {
+		font-size: 1rem;
+		margin-bottom: 60px;
+	}
+
+	.secao_experiencia .titulo {
+		color: var(--c13);
+	}
+
+	.exp_lista_li_card {
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+	}
+
+	.exp_lista_card span {
+		width: initial;
+		left: -18px;
+		top: -40px;
+	}
+}
