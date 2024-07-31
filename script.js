@@ -2,57 +2,57 @@ const listaFormacoes = [
 	{
 		titulo: 'Formação A partir do zero: HTML e CSS para projetos web',
 		horas: '51',
-		certificado: 'https://cursos.alura.com.br/user/joaodognini/degree-html-css-v527396-527396/certificate'
+		certificado: 'https://cursos.alura.com.br/degree/certificate/69d34201-6a94-45ff-9d8d-4557d465aeb2'
 	},
 	{
 		titulo: 'Formação CSS: aprofunde em estilos',
 		horas: '36',
-		certificado: 'https://cursos.alura.com.br/user/joaodognini/degree-css-estilos-v671897-671897/certificate'
+		certificado: 'https://cursos.alura.com.br/degree/certificate/2f4997a0-f4a4-418a-97c4-dfe5447b3046'
 	},
 	{
 		titulo: 'Formação Bootstrap 5: desenvolvimento de websites responsivos e atraentes',
 		horas: '15',
-		certificado: 'https://cursos.alura.com.br/user/joaodognini/degree-bootstrap-5-websites-responsivos-atraentes-598260/certificate'
+		certificado: 'https://cursos.alura.com.br/degree/certificate/62fd4445-6b93-4373-9758-ba8785bd3108'
 	},
 	{
 		titulo: 'Formação Desenvolva aplicações Web com JavaScript',
 		horas: '60',
-		certificado: 'https://cursos.alura.com.br/user/joaodognini/degree-javascript-front-end-v374365-374365/certificate'
+		certificado: 'https://cursos.alura.com.br/degree/certificate/847de1a0-8f1c-48c9-9632-07be13c663d7'
 	},
 	{
 		titulo: 'Formação Desenvolva aplicações Web em JavaScript com tarefas concorrentes e orientadas a objetos',
 		horas: '23',
-		certificado: 'https://cursos.alura.com.br/user/joaodognini/degree-aplicacoes-javascript-tarefas-concorrentes-orientadas-objetoss-543206/certificate'
+		certificado: 'https://cursos.alura.com.br/degree/certificate/c235133b-397d-4ae0-ad20-9fec7869bca1'
 	},
 	{
 		titulo: 'Formação Explore React com JavaScript',
 		horas: '65',
-		certificado: 'https://cursos.alura.com.br/user/joaodognini/degree-react-javascript-v450960-450960/certificate'
+		certificado: 'https://cursos.alura.com.br/degree/certificate/f4ce459c-e89a-4193-8d1c-80e4a5511d05'
 	},
 	{
 		titulo: 'Formação Melhore sua experiência de desenvolvimento com TypeScript',
 		horas: '31',
-		certificado: 'https://cursos.alura.com.br/user/joaodognini/degree-typescript-v309729-309729/certificate'
+		certificado: 'https://cursos.alura.com.br/degree/certificate/253d71b2-5e85-494e-a23c-660f1839bdf2'
 	},
 	{
 		titulo: 'Formação Gerencie aplicações React com TypeScript',
 		horas: '79',
-		certificado: 'https://cursos.alura.com.br/user/joaodognini/degree-react-ts-v581770-581770/certificate'
+		certificado: 'https://cursos.alura.com.br/degree/certificate/degree-react-ts-v581770-581770/certificate'
 	},
 	{
 		titulo: 'Formação Desenvolva aplicações Web e Mobile com React e React Native',
 		horas: '36',
-		certificado: 'https://cursos.alura.com.br/user/joaodognini/degree-aplicacoes-web-mobile-react-react-native-594432/certificate'
+		certificado: 'https://cursos.alura.com.br/degree/certificate/6095d863-aa95-48b0-b673-01e7636e48b6'
 	},
 	{
 		titulo: 'Formação React: desenvolva aplicações web usando JSX e Hooks',
 		horas: '58',
-		certificado: 'https://cursos.alura.com.br/user/joaodognini/degree-react-jsx-hooks-702713/certificate'
+		certificado: 'https://cursos.alura.com.br/degree/certificate/df3b3542-d661-4b8d-a9ed-4b8f56607d70'
 	},
 	{
 		titulo: 'Formação Full stack JavaScript: crie um projeto com React e Node.js',
 		horas: '28',
-		certificado: 'https://cursos.alura.com.br/user/joaodognini/degree-full-stack-react-node-js-455268/certificate'
+		certificado: 'https://cursos.alura.com.br/degree/certificate/8adf9cdd-7c7a-48c2-ae96-9dd8098e3504'
 	},
 	{
 		titulo: 'UI Design para Iniciantes',
