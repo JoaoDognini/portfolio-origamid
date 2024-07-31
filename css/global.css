@@ -29,6 +29,10 @@ a {
 	text-decoration: none;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 .container {
 	display: grid;
 	grid-template-columns: 1fr 2fr;
