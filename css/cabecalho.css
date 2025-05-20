@@ -35,3 +35,12 @@
 		width: 70%;
 	}
 }
+
+@media (max-width: 500px) {
+	.cabecalho_lista {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 20px;
+		text-align: center;
+	}
+}
